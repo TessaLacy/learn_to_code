@@ -1,9 +1,9 @@
 # Mark Down
 
--You need to create an MD file by ending name in .MD
--singular # is Header 1 (#)
--Double # is Header 2 (##)
--Triple # is Header 3 (###)
+1. You need to create an MD file by ending name in .MD
+- singular # is Header 1 (#)
+- Double # is Header 2 (##)
+- Triple # is Header 3 (###)
 puting a word inbetween asterics (*word*) will make it italic
 putting a word inbetween 2 asterics (**word**) will bake it bold
 make a checklist by essentially drawing out a checklist. Start with a dash (-) and then create a box with the square brackets ([]) and put an x in the box ([x])
