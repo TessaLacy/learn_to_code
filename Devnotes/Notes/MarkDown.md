@@ -43,5 +43,8 @@ You can create a table by actually drawing out a table, example below
 
 To create a block quote, use the lesser than symbol (>), example below
 
->Tessa Lacy is a very talented software developer - Elon Musk 
+>Tessa Lacy is a very talented software developer - Elon Musk
+
+- You can add emoji's. Either copy and paste the emoji or type the emoji shortcut which begins with the colon (:) and then type a letter. Example below
+- 😄 🔽 🐒
 
