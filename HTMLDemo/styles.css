@@ -29,6 +29,12 @@ section {
     font-family: sans-serif, Times 'Times New Roman', Times, serif;
 }
 
+header section img {
+    max-width: 40px;
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+
 .blacklink {
     color: black;
 }
@@ -53,6 +59,7 @@ main {
 }
 
 .headertext {
+    color: blue;
     font-size: 5em;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -71,6 +78,20 @@ main {
 .searchbar:hover {
     border-color: lightgrey;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.2)
+}
+
+.iconButtonContainer {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.iconButton {
+    background: transparent;
+    border: none;
+    color: black;
+    font-size: 1.2em;
+    cursor: pointer;
 }
 
 input {
@@ -110,10 +131,21 @@ footer > section {
     justify-content: space-around;
     padding: 14px;
     border: 1px solid #f7f8f9;
+    background-color: #f7f8f9;
 }
 
 .footerLink {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 14px;
+}
+
+.footerLink a {
+    cursor: pointer;
+}
+
+@media (min-width: 540px) {
+    footer > section {
+        flex-direction: row;
+    }
 }
