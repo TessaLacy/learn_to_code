@@ -1,6 +1,8 @@
 # HTML Notes
 
-## Formating
+## 8/18/24 
+
+### Formating
 - You can look at HTML like a word document with a header, start of the main, end of the main, which wraps all of our main content, and the footer. all of that together is refferred to as **The Body**
 - The Head of the body contains Meta information about the body, such as the title.
 - So essentialy, you can build out an HTML website like a word document.
@@ -60,3 +62,22 @@
   
 </footer>
 </body>
+
+### HTML & CSS YT Tutorial
+-Pressing ! and then tab, will bring up the HTMLboiler plate code- this creates the basic HTML format required to create a basic HTML website.
+-lang="en" lets the browser know the default language is English
+-Comments in an HTML doc are created with the tag <!--words-->. This allows me to keep the comments near the code, but it won't show up on the website. I still need to practice this though...
+-When creating headers, make sure to stay consistent. I can have multiple h2 and beyond headers, but there should only be one h1 header in a doc.
+- **Span** is the in line space continer. It's the only spacing tag we are allowed to have within a paragraph.
+-Every HTML tag allows you to add a style attribute. This is known as an inline style, but it is not best practice. The biggest downside is it will only apply the style to that particular element. So if you wanted all of the buttons styled the same, you would have to do a lot of copy paste.
+- Add a **class** - it allows CSS and Javascript to select and access specific elements. It is added after the "add a link" attributes, but then you also need it to the CSS sheet. Start a new line and begin with a period (.), then enter the class (it should automatically pop up).
+- Since we added a flex display to the parent container, which is the body, all direct "children" can have a flex set to 1, which will allow them to be as space greedy as possible.
+- When you use the center perameter for the align-items and justify content, it aligns both the vertical and horizontal, respectively, to center in the middle of the page.
+-When I tried to create a consistent gap in between all body elements, it didn't work for me, but it was because I had an open division without a close. When I added the close, it all spaced correctly.
+- The only h1 I had in this doc was Google so we added a class to stylize. We added a secondary attribute called **ID**, which is a unique ID in the doc. Can't make another, but since we only have one h1, it works as long as you add it to the CSS file beginning with a period (.)
+
+## 8/19/24
+### Continuing with HTML and CSS YT Tutorial
+- Toadd an **Emoji** click the curser where you want to add it, press the window and the period (.) key at the same time to open up the panel where you can choose the emoji you want
+- add icons to doc from **Famous Icons** website. Just click the code to copy and then pop it in where you want it.
+- It is best practice to create a folder to add all images to, if you need to put an image on your doc. Then use the img tag, with the source, then the alt (description) and then it is a self closing tag. 
