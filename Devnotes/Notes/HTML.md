@@ -78,6 +78,9 @@
 
 ## 8/19/24
 ### Continuing with HTML and CSS YT Tutorial
-- Toadd an **Emoji** click the curser where you want to add it, press the window and the period (.) key at the same time to open up the panel where you can choose the emoji you want
+- To add an **Emoji** click the curser where you want to add it, press the window and the period (.) key at the same time to open up the panel where you can choose the emoji you want
 - add icons to doc from **Famous Icons** website. Just click the code to copy and then pop it in where you want it.
-- It is best practice to create a folder to add all images to, if you need to put an image on your doc. Then use the img tag, with the source, then the alt (description) and then it is a self closing tag. 
+- It is best practice to create a folder to add all images to called public, if you need to put an image in your doc. Then use the img tag, with the source, then the alt (description) and then it is a self closing tag. 
+- **Font Awesome CDN** offers exterior packages that we can incorporate into our code (cdnjs.com). Just copy the link tag and paste into the head.
+
+

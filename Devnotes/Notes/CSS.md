@@ -39,4 +39,5 @@
 - You can turn the curser into a pointer with curser:pointer!
 - To select the sections that exist w/in the footer and select only the direct decendents or 2 children, use the greater than (>)
 -To turn off code, yet still see it add /*words*/
- 
+- **Font Awesome Icons** have icon tags like  camera, microphones, etc (fontawesome.com). So cool. They will have default styling, that can be unset with a class.
+- Make sure links in footer are responsive to page resizing. If not then use **Media Query** with min-width. This should always be at the bottom of the page and means that the style will take over as soon as the min width is met. It will turn it into a row, which makes it responsive to smaller screens.
