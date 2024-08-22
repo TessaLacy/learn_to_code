@@ -27,3 +27,4 @@ syntax errors are caught by the computer in step 4.
 
 #### Forming an Algorithm
 **Algorithm** is the logical step by step plan needed to solve a problem. It hass a finite number of instructions. Think big picture and whats the final goal. Consider other aspects like how often the program is meant to run, when creation deadline is, and how complex problem is. A program meant to run once can be less optimized then a program meant to run a million times a day which would need to be fully optimized.
+**Comment lines** are identified with a hashtag (#). Add the comment before the code, so anyone looking at your code can identify the intention of that section of code. For comments spanning multiple lines, start each new line with a hashtag. Programmers may use the # to temporarily remove lines if certain parts of code aren't functioning and needs to be tested further.
