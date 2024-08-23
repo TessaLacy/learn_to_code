@@ -19,12 +19,19 @@
 - Logical errors are issues the computer wouldn't catch because they are logically correct for example, you enter 100 when you meant 10. The onyl way to find these errors is to test thhe code.
 syntax errors are caught by the computer in step 4.
 **Variable** a location in memory where the value that's storedin that location can hold different values at various points throughout the program. Any potential user input or a result of a calculation could be a variable that could be defined and used. We want to define variables so that late on in the code we know what it references. No spaces.
-- what is the logic behind sequesnce of steps? There may be scenarios where we have conditions of branching of decisions based on user input or ther variables. For example, are you hungry has one path if you are hungry and another path of statements if you are not. 
-- Other elements to consider include the ability for certain statements to run more than once. So we'd need repetition or to break down those statements into subparts of a program.
 **Pseudocode** is English like statements that describe the steps in a program or algorithm
 **String** is a data type that can store a literal string as a value
 **Literal String** is a series of characters that are combined together and enclosed in quotes
 
+#### Steps to understanding a problem to build a program for
+- 1 Define the goal or purpose of program 2 Break down problem into smallest possible steps needed to perform tasks 3 Ensure logic and syntax (rational and instructions) are correct and in the proper order 4 What items can be stored as variables? 5 what is the logic behind sequence of steps 6 Add the use of conditions (if this, than that)
+- There may be scenarios where we have conditions of branching of decisions based on user input or ther variables. For example, are you hungry has one path if you are hungry and another path of statements if you are not. 
+- Other elements to consider include the ability for certain statements to run more than once. So we'd need repetition or to break down those statements into subparts of a program.
+
 #### Forming an Algorithm
 **Algorithm** is the logical step by step plan needed to solve a problem. It hass a finite number of instructions. Think big picture and whats the final goal. Consider other aspects like how often the program is meant to run, when creation deadline is, and how complex problem is. A program meant to run once can be less optimized then a program meant to run a million times a day which would need to be fully optimized.
-**Comment lines** are identified with a hashtag (#). Add the comment before the code, so anyone looking at your code can identify the intention of that section of code. For comments spanning multiple lines, start each new line with a hashtag. Programmers may use the # to temporarily remove lines if certain parts of code aren't functioning and needs to be tested further.
+
+- After understanding the problem or big picture, we can move on to individual stages and steps and how to break them down. 1 What are the **Inputs** into the problem and where are they coming from 2 What's the output of the problem or what should the end result be. 3 What is the order of the steps? order is important because it helps define the actions that need to occur. 4 Within the program, what types of decisions need to be made? This adds a layer of choice and options based on the input and other variables. 5 Are there any areas of the problem that could be repeated? Look for patterns in the algorithm. Patterns can reduce the number of steps it takes to get to your expected solution and it can be converted to code later to help with processes that need to be repeated, which streamlines the code with the use of loops, functions, classes, and methods.
+-Optimize code by finding repeating patterns.
+
+**Comment lines** are identified with a hashtag (#). Add the comment before the code, so anyone looking at your code can identify the intention of that section of code. For comments spanning multiple lines, start each new line with a hashtag. Programmers may use the # to temporarily remove lines if certain parts of code aren't functioning and needs to be tested further.**Module
