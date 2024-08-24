@@ -35,6 +35,11 @@ syntax errors are caught by the computer in step 4.
 -Optimize code by finding repeating patterns.
 
 **Comment lines** are identified with a hashtag (#). Add the comment before the code, so anyone looking at your code can identify the intention of that section of code. For comments spanning multiple lines, start each new line with a hashtag. Programmers may use the # to temporarily remove lines if certain parts of code aren't functioning and needs to be tested further. It's good practice to include some details about the program in your comments at the top of the doc like your name, when it was created, and what the program is for.
+#Author: 
+#Created Date:
+#Description:
+#Example of usage:
+#Result:
 **Module** Self contained piece of code that can be used in different programs.
 **Integrated Developmennt Environment (IDE)** ia a text editor that has additional functionality to allow developers to perform some additional tasks to simplify workflow of the development process
 
