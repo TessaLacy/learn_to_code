@@ -47,3 +47,15 @@ syntax errors are caught by the computer in step 4.
 ### From Sophia Class
 **Libraries** Prewritten code collections that you can use when developing a program.
 **Syntax Error** Violated the "grammar" rules of python. Replit tries to pinpoint what line the error is in, but its not always perfect. So think of it as a starting point. It also informs you what the potential errors are, just copy it into Google to learn more. With multiple errors always fix the error from top down. Quotes wrap around the literal string or python will read it as a variable or another keyword. 
+
+## 9/4/24
+### From Sophia Class
+- The command **print()** is a function that allows Python to output data to the console (screen). Inside of the brackets, we have a string enclosed in double-quotes. The quotes can be single or double, but they must be the same, otherwise you will get an error.
+- A red squiggly line under parts of code indicate a syntax error. Python does its best to point to the line and character it first notices an error, it may not always be correct but its a good place to start
+- In the output console, you will also see more details about which file and line the error is on. In the code editor, you should see the line numbers to the left of the code. It’s important to note that these numbers are not part of the code
+- With any error message, if you’re unsure of what it means, you can always copy it into Google to learn what the potential issue(s) could be. This is a good step to follow if you’re not sure about what the error represents for any programming language.
+- If you see multiple errors (which is quite common in larger programs), you should fix the issues from the top down. In many instances, an issue at the top of the error list could seemingly show that there are many more errors than there really are. Don’t worry about the number of errors; put your focus on the first one.
+- Developers may also use the # to temporarily remove lines. There may be certain parts of the code that aren’t functioning and need to be tested further.
+**Edge cases** are values that are at the end of a testing range.
+**interior tests** are test values that are within a specific range where the precise values that we entered within that range did not matter.
+**corner case** is when the value you are testing is in between two edge cases.
